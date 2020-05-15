@@ -71,8 +71,8 @@ const Category = () => {
                 id: item.resource.id,
                 status: item.resource.status,
                 name: item.resource.name && item.resource.name[0].family,
-                code: item.resource.code.text,
-                reference:item.resource.subject.reference,
+                code: item.resource.code && item.resource.code.text,
+                reference:item.resource.subject && item.resource.subject.reference,
             }
         })
     }else{
