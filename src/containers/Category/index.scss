@@ -1,0 +1,24 @@
+#root {
+  display: flex;
+}
+.page-container {
+    display: inline-block;
+    width: 20%;
+    height: calc(100vh - 54px);
+}
+
+// .page-container {
+//     background-color: #f1f2f3;
+//     border-right: 1px solid #bec4c6;
+//     box-shadow: 1px 1px 3px 0 rgba(0,0,0,.1);
+//     z-index: 2;
+//     padding: 20px 18px;
+//     height: calc(100vh - 54px);
+//     position: relative;
+//     display: inline-block;
+//   }
+  
+.content-holder {
+  display: inline-block;
+  width: 20%;
+}

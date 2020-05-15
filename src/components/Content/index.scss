@@ -1,0 +1,23 @@
+
+.page-content {
+    height: calc(100vh - 54px);
+    width: 100vw;
+    position: relative;
+    top: 54px;
+    width: 80%;
+}
+.grid {
+    height: calc(100vh - 54px);
+    width: 100vw;
+}
+.button-group {
+    padding: 20px 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    > button {
+        width: 70px;
+        border: 1px solid #62b8ff;
+        padding: 0 20px;
+    }
+}
